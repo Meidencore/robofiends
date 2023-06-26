@@ -1,10 +1,10 @@
 import React from "react";
 import './Scroll.css'
 
-const Scroll = (props) => {
+const Scroll = ({ children }) => {
     return(
         <div className="scroll">
-            {props.children}
+            {children}
         </div>
     );
 };
